@@ -1,25 +1,32 @@
 body{
     display: grid;
     grid-template-rows: 1fr 1fr;
-        grid-template-columns:1fr 1fr;
-        grid-template-areas:"c c" 
-                            "b a";
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-areas:"c c a" 
+                            "b b a";
 }
 
+body{background-image: url(../img/imgfundo.jpg);}
 
 #imgTempo {
-    height: 100px; 
-    width: 100px;
+    height: 400px; 
+    width: 400px;
     display: none;
     grid-area: a;
     top: 20px;
+    margin-top: auto;
 }
 
 #pTemp{
     grid-area: b;
+    color: antiquewhite;
 }
 
+#pesquisar{
+    color: antiquewhite;
+}
 
 #pesquisar{
     grid-area: c;
 }
+
