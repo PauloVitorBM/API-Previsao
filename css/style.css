@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+        grid-template-columns:1fr 1fr;
+        grid-template-areas:"c c" 
+                            "b a";
+}
+
+
+#imgTempo {
+    height: 100px; 
+    width: 100px;
+    display: none;
+    grid-area: a;
+    top: 20px;
+}
+
+#pTemp{
+    grid-area: b;
+}
+
+
+#pesquisar{
+    grid-area: c;
+}
